@@ -25,9 +25,15 @@ class Program
         Rover roverA = new Rover(postionRoverA);
         Rover roverB = new Rover(postionRoverB);
 
+        Console.WriteLine("Rovers starting position");
+        Console.WriteLine(roverA.x + " " + roverA.y + " " + roverA.card);
+        Console.WriteLine(roverB.x + " " + roverB.y + " " + roverB.card);
+
         roverA.MoveToLocation(commandSetRoverA);
         roverB.MoveToLocation(commandSetRoverB);
 
+        Console.WriteLine(" ");
+        Console.WriteLine("Rovers final position");
         Console.WriteLine(roverA.x + " " + roverA.y + " " + roverA.card);
         Console.WriteLine(roverB.x + " " + roverB.y + " " + roverB.card);
         Console.ReadLine();
