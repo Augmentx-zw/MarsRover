@@ -83,6 +83,7 @@
 
         public void MoveToLocation(string[] commands)
         {
+            // follow the command set to move the rover
             foreach (var command in commands)
             {
                 switch (command)

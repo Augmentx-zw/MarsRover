@@ -62,7 +62,7 @@ namespace MarsRoverTest
         [Fact]
         public void MoveToLocation()
         {
-            // move to new location (5 4 E)
+            // move to new location test: new location: 1 3 E
             //arrange
             var postion = new Postion
             {
