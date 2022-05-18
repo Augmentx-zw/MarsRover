@@ -50,7 +50,7 @@ namespace MarsRoverTest
             {
                 PosX = 0,
                 PosY = 0,
-                CardZ = "W"
+                CardZ = "E"
             };
             Rover rover = new(postion);
             //act
